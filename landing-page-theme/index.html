@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page | Using Bootstrap</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Bootstrap CSS-->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+          <div class="navbar-brand text-secondary">
+            <a href="#home">Your Awesome Site</a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportContent"
+            aria-control="navbarSupportContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a href="#about" aria-current="page" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#service" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+
+    <main>
+      <!-- Header -->
+
+      <section id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12" >
+              <div class="heading mx-auto">
+                <h1>Landing Page</h1>
+                <h2>A Template By Bootstrap</h2>
+                <div class="intro-breaker"></div>
+                <ul class="list-inline intro-social-button" id="nav-bar">
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-light btn-lg"
+                      ><i class="bi bi-twitter"></i> Twitter</a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-light btn-lg"
+                      ><i class="bi bi-github"></i> Github</a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-light btn-lg"
+                      ><i class="bi bi-linkedin"></i> Linkedin</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+
+      <section id="about">
+        <div class="container my-3"">
+          <div class="row text-center w-75 mx-auto " id="about-row">
+            <h2 class="my-4">About Landing-Page</h2>
+            <p class="about-text">
+              Landing-Page is a free Bootstrap 3 theme created by Start
+              Bootstrap. It can be yours right now, simply download the <br> template
+              on the
+              <a href="#" class="about-link">Preview page</a>. The theme is open source, and you can use it for any purpose,
+              personal or commercial.
+            </p>
+
+            <p class="about-text">
+              The Jekyll version is brought to you by
+              <a href="#" class="about-link">Shane Weng</a>
+            </p>
+
+            <p class="about-text">
+              This theme features stock photos by
+              <a href="#" class="about-link"> to the Stock Photo</a>.
+            </p>
+
+            <p class="about-text">
+              Landing-Page includes full HTML, CSS, and custom JavaScript files
+              along with LESS files for easy customization.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service -->
+
+      <section id="service">
+        <!-- section 1 -->
+
+        <div class="service-section1">
+          <div
+            class="container-fluid bg-light py-1 border border-end-0 border-top-0"
+          >
+            <div class="row mx-5 my-5 d-flex justify-content-between" id="service1-row">
+              <div class="col-lg-6 my-4">
+                <div class="line  mb-4"></div>
+                <h2 class="h2">
+                  Death to the Stock Photo:<br />Special Thanks
+                </h2>
+                <div class="lead">
+                  <p class="paragraph my-4">
+                    A special thanks to
+                    <a href="#">Death to the Stock Photo</a> for providing <br> the
+                    photographs that you see in this template. Visit their <br>
+                    website to become a member!
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-5 col-lg-offset-2 clo-sm-6">
+                <img src="img/services/ipad.png" alt="ipad" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- section 2 -->
+
+        <div class="service-section2">
+          <div class="container-fluid">
+            <div
+              class="row d-flex justify-content-between my-5 mx-5 flex-row-reverse"
+              id="service2-row">
+              <div class="col-lg-5 my-3">
+                <div class="line  mb-4"></div>
+                <h2 class="h2">3D Device Mockups<br />by PSDCovers</h2>
+                <div class="lead">
+                  <p class="paragraph my-4 ">
+                    Turn your 2D design into high qualit, 3D product shots
+                    in <br> seconds using free Photoshop action by
+                    <a href="#">PSDCover</a>! Visit <br> their website to download
+                    some of their awesome, free <br> photoshop actions!
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-lg-offset-2 clo-sm-6 ">
+                <img src="img/services/dog.png" alt="dog" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- section 3 -->
+
+        <div class="service-section1">
+          <div
+            class="container-fluid bg-light py-1 border border-end-0 border-top-0"
+          >
+            <div class="row mx-5 my-5 d-flex justify-content-between" id="service3-row">
+              <div class="col-lg-6 my-5">
+                <div class="line  mb-4"></div>
+                <h2 class="h2">Google Web Fronts and<br />Font Awesome Icon</h2>
+                <div class="lead">
+                  <p class="paragraph my-4">
+                    This template features the 'Lato' font, part of the
+                    <a href="#" class="link">Google <br> Web Font Library,</a> as
+                    well as <a href="#">icon from Font Awesome</a>.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-5 col-lg-offset-2 clo-sm-6">
+                <img
+                  src="img/services/phones.png"
+                  alt="Phone"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+
+      <section id="contact" >
+        <div class="container-fluid" id="contact-img">
+          <div class="row mx-5">
+            <div class="col-12 d-flex justify-content-between  align-items-center my-5 pt-5" id="contact-flex">
+              <h2 class="head">Keep in Touch:</h2>
+              <ul class="list-inline intro-social-button">
+                <li class="list-inline-item">
+                  <a href="#" class="btn btn-light btn-lg"
+                    ><i class="bi bi-twitter"></i> Twitter</a
+                  >
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn btn-light btn-lg"
+                    ><i class="bi bi-github"></i> Github</a
+                  >
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn btn-light btn-lg"
+                    ><i class="bi bi-linkedin"></i> Linkedin</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row my-4">
+            <div class="col-lg-8">
+             <ul class="list-inline" id="foot-link">
+              <li class="list-inline-item">
+                <a href="#home">Home</a>
+              </li>
+              <li class="list-inline-item">.</li>
+              <li class="list-inline-item">
+                <a href="#about">About</a>
+              </li>
+              <li class="list-inline-item">.</li>
+              <li class="list-inline-item">
+                <a href="#service" >Services</a>
+              </li>
+              <li class="list-inline-item">.</li>
+              <li class="list-inline-item">
+                <a href="#contact" >Contact</a>
+              </li>
+             </ul>
+             <p class="text-muted"
+             >Copyright <i class="bi bi-c-circle"></i> Your Awesome Site All Rights Reserved
+            </p>
+            </div>
+            <div class="col-lg-4">
+              <p class="foot">           
+                   Credits: Landing Page is a free to use, open source<br> Bootstrap theme Created by <a href="#">Start Bootstrap</a>.
+              </p>
+              </div>
+          </div>
+        </div>
+      </footer>
+      
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
